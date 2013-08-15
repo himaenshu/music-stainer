@@ -13,9 +13,9 @@ class Music
 		@path
 	end
 
-	def name=(new_name)
-		@name = new_name
-	end
+	def full_path
+		path+'/'+name
+	end	
 
 	class << self
 		def remove_kbps_info(file_name)

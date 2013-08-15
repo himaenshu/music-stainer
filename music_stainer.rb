@@ -33,7 +33,6 @@ class MusicStainer
 			elsif song?(file_name)
 				song = Track.new(file_path)
 				song.cleanup
-				#break
 			else
 				next	
 			end
