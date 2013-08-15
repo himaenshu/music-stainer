@@ -1,4 +1,4 @@
-media-file-stainer
+music-stainer
 ==================
 
-Cleans up the branding from media files and albums
+Cleans up the piracy branding from the music tracks and albums
