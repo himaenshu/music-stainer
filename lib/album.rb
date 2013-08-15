@@ -1,4 +1,4 @@
-class Album << Music
+class Album < Music
 	
 	def cleanup
 		new_album_name = Album.simplfied_name(name)

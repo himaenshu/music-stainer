@@ -1,4 +1,4 @@
-class Track << Music
+class Track < Music
 	
 	def cleanup
 		new_track_name = Track.simplfied_name(name)

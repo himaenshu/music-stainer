@@ -1,5 +1,4 @@
 class Music
-	#include TitleHelper
 
 	def initialize (file_path)
 		@name = File.basename(file_path)
