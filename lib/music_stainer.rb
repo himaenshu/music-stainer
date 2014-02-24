@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'active_support/core_ext'
 
-require 'lib/music.rb'
-require 'lib/album.rb'
-require 'lib/track.rb'
+require 'lib/music_stainer/music.rb'
+require 'lib/music_stainer/album.rb'
+require 'lib/music_stainer/track.rb'
 
 class MusicStainer
 
@@ -46,12 +46,12 @@ class MusicStainer
 
 end	
 
-p "*********************************************"
-p "*************** MUSIC STAINER ***************"
-p "*********************************************"
-p "Cleaning piracy branding..."
+# p "*********************************************"
+# p "*************** MUSIC STAINER ***************"
+# p "*********************************************"
+# p "Cleaning piracy branding..."
 
-MusicStainer.clean_piracy_branding
+# MusicStainer.clean_piracy_branding
 
-p "We are done! Enjoy the music. "
-p "*********************************************"
+# p "We are done! Enjoy the music. "
+# p "*********************************************"
